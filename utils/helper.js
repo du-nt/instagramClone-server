@@ -18,7 +18,7 @@ const upload = (file, folder) => {
         if (err) {
           reject(err);
         } else {
-          return resolve(result.url);
+          return resolve(result.secure_url);
         }
       }
     );
